@@ -2,6 +2,7 @@ using FactoryMethodPattern.Pizzas;
 
 namespace FactoryMethodPattern.ApproachTwo;
 
+// Concrete factory
 public class VegasPizzaStore : AbstractPizzaStore
 {
     protected override IPizza CreatePizza(string type)

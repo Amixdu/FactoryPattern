@@ -2,6 +2,9 @@
 {
     static void Main(string[] args)
     {
+        // Simple factory
+        // SimpleFactory.Program.Main([]);
+
         // Factory Method
         // FactoryMethodPattern.Program.Main([]);
 
@@ -9,6 +12,6 @@
         // FactoryMethodAdvanced.Program.Main([]);
 
         // Abstract Factory
-        AbstractFactoryPattern.Program.Main([]);
+        // AbstractFactoryPattern.Program.Main([]);
     }
 }

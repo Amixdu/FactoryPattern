@@ -1,5 +1,6 @@
 namespace FactoryMethodPattern.ApproachOne;
 
+// Client code that uses the relevant factory and performs some actions on the created pizza
 public class PizzaStore(IPizzaFactory pizzaFactory)
 {
     public IPizza OrderPizza(string type)
