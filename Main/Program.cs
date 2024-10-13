@@ -1,0 +1,14 @@
+﻿class Program
+{
+    static void Main(string[] args)
+    {
+        // Factory Method
+        // FactoryMethodPattern.Program.Main([]);
+
+        // Advanced Factory Method
+        // FactoryMethodAdvanced.Program.Main([]);
+
+        // Abstract Factory
+        AbstractFactoryPattern.Program.Main([]);
+    }
+}
